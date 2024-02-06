@@ -24,7 +24,7 @@
             </FlowDocument>
         </RichTextBox>
         <Button x:Name="btnMakeBreakfast" Grid.Row="1" Grid.Column="0" Height="35" Width="200" Margin="10,10,10,0" VerticalAlignment="Bottom" Click="btnMakeBreakfast_Click">Make Breakfast</Button>
-        <Button x:Name="btnClose" Grid.Row="1" Grid.Column="1" Height="35" Width="200" Margin="10,10,10,0" VerticalAlignment="Bottom" Click="btnClose_Click">Close Form</Button>
+        <Button x:Name="btnClear" Grid.Row="1" Grid.Column="1" Height="35" Width="200" Margin="10,10,10,0" VerticalAlignment="Bottom" Click="btnClear_Click">Clear Form</Button>
 
 
     </Grid>

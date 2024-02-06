@@ -30,9 +30,9 @@ namespace AsyncWpfDEMO_Net8
             await MakeBreakfastAsync();
         }
 
-        private void btnClose_Click(object sender, RoutedEventArgs e)
+        private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            paraMessages.Inlines.Clear();
         }
 
         private void WriteWithLineBreaks(string text, SolidColorBrush brush)
